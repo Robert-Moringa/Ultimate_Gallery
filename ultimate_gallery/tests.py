@@ -25,11 +25,6 @@ class LocationTestCLass(TestCase):
         location = Location.objects.all()
         self.assertTrue(len(location) == 0)
 
-    # def test_update(self):
-    #     self.loc.save_location()
-    #     loc = Location.get_location(self.id)
-    #     self.loc.change_location('Kakamega')
-    #     self.assertTrue(loc == 'Kakamega')
 
 class ImageTestClass(TestCase):
     # Set up Method
@@ -80,11 +75,5 @@ class ImageTestClass(TestCase):
         print(images)
         self.assertTrue(len(images)>0)
 
-    # def test_update_image(self):
-    #     self.image.save_image()
-    #     image = Image.update_image( self.image.id, 'test update', 'my test',self.loc, self.cat)
-    #     upimage = Image.objects.filter(id = self.image.id)
-    #     print(upimage)
-    #     self.assertTrue(Image.name == 'test update')
 
 
