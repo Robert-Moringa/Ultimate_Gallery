@@ -53,6 +53,7 @@ class Image(models.Model):
         else:
             return "/static/images/noimage.png"
 
+
     def __str__(self):
         return self.name
 

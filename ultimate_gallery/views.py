@@ -18,6 +18,7 @@ def home(request):
 def photo_details(request, image_id):
     try:
         details = Image.objects.get(pk =image_id)
+        # url=Image.get_photo_url()
     except DoesNotExist:
         raise Http404()
     return render(request,"details.html", {"details":details})
