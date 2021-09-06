@@ -1,0 +1,1 @@
+web: gunicorn ultimate_gallery.wsgi --log-file -
