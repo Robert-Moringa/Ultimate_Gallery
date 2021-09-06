@@ -1,0 +1,15 @@
+{%extends 'base.html'%}
+
+{% block content %}
+{% for image_item in photos %}
+<div class="row col-md-3">
+    <a href="{% url 'photo_details' image_id=image_item.id %}"><img src="{{image_item.image_path.url}}"  class="img-responsive" alt="Image" height="100%"></a>
+    
+</div>
+{% empty %}
+<div class="row">
+    <h2 class="text-center">There no photos yet</h2>
+</div>
+{% endfor %}
+
+{% endblock %}
