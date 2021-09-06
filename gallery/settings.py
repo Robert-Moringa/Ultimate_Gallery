@@ -62,7 +62,7 @@ SECRET_KEY = 'django-insecure-2vl5$qw35sc0mv^u*@kh12_fx1%y4o%cpylurz+&q1m^v=29^)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://ultimategallery.herokuapp.com/']
 
 
 # Application definition
