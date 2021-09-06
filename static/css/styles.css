@@ -1,6 +1,6 @@
-h1{
+/* h1{
   color: green;
-}
+} */
 
 *{
   font-family: 'Montserrat', sans-serif;
@@ -9,8 +9,8 @@ h1{
 /* .landing{
   background-image: url(../images/camera.jpeg);
 } */
-.name{
-  margin-top: 10%;
+/* .name{
+  padding-top: 40%;
   color: green;
   font-size: 100%;
-}
+} */
